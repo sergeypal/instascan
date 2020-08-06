@@ -1,0 +1,59 @@
+{
+  "name": "@cadwork/instascan",
+  "version": "2.1.14",
+  "description": "Fork of Webcam-driven QR code scanner with umd and webpack support, incuding the iOS 11 rear camera fix.",
+  "main": "dist/instascan.min.js",
+  "types": "dist/instascan.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "gulp release"
+  },
+  "files": [
+    "src/",
+    "index.js",
+    "dist/instascan.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaroslavPribyl/instascan.git"
+  },
+  "keywords": [
+    "qr",
+    "code",
+    "quick",
+    "response",
+    "scan",
+    "scanner",
+    "webcam",
+    "realtime",
+    "umd",
+    "webpack"
+  ],
+  "author": "Chris Schmich <schmch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schmich/instascan/issues"
+  },
+  "homepage": "https://github.com/JaroslavPribyl/instascan.git",
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-runtime": "^6.26.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-transform": "^3.0.5",
+    "gulp-uglify": "^3.0.0",
+    "gulp-umd": "^2.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "fsm-as-promised": "^0.14.5",
+    "visibilityjs": "^1.2.4",
+    "webrtc-adapter": "^1.4.0"
+  }
+}
